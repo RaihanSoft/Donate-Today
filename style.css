@@ -1,0 +1,180 @@
+* {
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+}
+
+.banner {
+    width: 1440px;
+    height: 669px;
+    border: 2px solid red;
+    margin: 0 auto;
+}
+
+.banner-content {
+    border: 2px solid red;
+    background-image: url(./images/donation0.jpg);
+    background-color: rgba(0, 0, 0, 0.4);
+    background-blend-mode: overlay;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    width: 1440px;
+    height: 669px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+}
+
+.banner-content h1 {
+    color: rgb(255, 255, 255);
+    font-family: Inter;
+    font-size: 65px;
+    font-weight: 700;
+    line-height: 79px;
+}
+
+.banner-content p {
+    color: rgb(255, 255, 255);
+    font-family: Poppins;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 28px;
+    text-align: center;
+}
+
+.banner-content button {
+    color: rgb(255, 255, 255);
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 24px;
+    padding: 16px 12px 16px 12px;
+    background-color: red;
+    border: none;
+    text-align: center;
+    margin-top: 30px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: pink;
+    color: black;
+}
+
+@media screen and(max-width:576px) {}
+
+/* main container  */
+
+.main-container {
+
+    width: 1440px;
+    height: 669px;
+    border: 2px solid red;
+    margin: 0 auto;
+
+
+}
+
+.contents {
+    display: grid;
+    grid-template-columns: repeat(3, 400px);
+
+    justify-content: center;
+
+
+    height: 80%;
+    width: 100%;
+
+}
+
+.box1 {
+    grid-column: span 3;
+    height: 70%;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+
+}
+
+.box1 h1 {
+    color: rgb(18, 18, 18);
+    font-family: Inter;
+    font-size: 45px;
+    font-weight: 700;
+    line-height: 54px;
+    letter-spacing: 0px;
+    text-align: center;
+
+}
+
+.box1 p {
+    color: rgb(112, 112, 112);
+    font-family: Poppins;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 28px;
+    letter-spacing: 0px;
+    text-align: center;
+
+}
+
+
+.box {
+    border: 2px solid red;
+    text-align: start;
+    padding: 40px 0 0 20px;
+
+}
+
+.boxh1 {
+    color: rgb(18, 18, 18);
+    font-family: Poppins;
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 36px;
+    letter-spacing: 0%;
+    text-align: left;
+
+}
+
+.box p {
+    color: rgb(112, 112, 112);
+    font-family: Poppins;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0%;
+    text-align: left;
+
+}
+
+.box2 {
+    border-radius: 5px;
+
+    background: rgba(79, 157, 166, 0.1);
+}
+
+.box3 {
+    border-radius: 5px;
+
+    background: rgba(255, 89, 89, 0.1);
+}
+
+.box4{
+   background-color:rgba(203, 186, 140 ,0.2)
+
+}
+
+@media screen and (max-width:576px){
+
+    .contents{
+        grid-template-columns: 200px;
+        
+    }
+
+}
